@@ -12,6 +12,7 @@ La première étape a été de définir les points de contrôle à vérifier pou
 
 Pour réaliser ce TP, vous devez:
 
+- faire un fork de ce repository
 - analyser les travaux de vérifications implémentés dans `validator.sh`
 - exécuter `validator.sh` pour voir si les sources fournies sont compatibles avec les politiques de l'industriel *(vous vous doutez bien que non...)*
 - corriger les sources (`Dockerfile` et `start.sh`) pour rendre l'image compatible
