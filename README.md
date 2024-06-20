@@ -139,7 +139,7 @@ Pour les points bonus :
 
 Ainsi, vous pourriez obtenir jusqu'à 25 points (cappés à 20) si vous réalisez toutes les tâches et respectez les délais.
 
-## List de vos repositories
+## Liste de vos repositories
 
 Entrez ici (par PR) vos prénom, nom, et le lien vers votre repository.
 
