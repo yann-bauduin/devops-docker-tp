@@ -16,8 +16,9 @@ Pour réaliser ce TP, vous devez:
 - exécuter `validator.sh` pour voir si les sources fournies sont compatibles avec les politiques de l'industriel *(vous vous doutez bien que non...)*
 - corriger les sources (`Dockerfile` et `start.sh`) pour rendre l'image compatible
 - me proposer une pull request sur ce repository avec vos modifications, et ce avant le 26/06/2024.
-- cette pull request doit contenir les modifications apportées à `Dockerfile` et `start.sh`, mais également m'expliquer en détail ce que fait `validator.sh`, ce 
-  que vous avez changé, et ce que vous avez ajouté, et pourquoi.
+  - cette pull request doit contenir les modifications apportées à `Dockerfile` et `start.sh`
+  - elle doit également m'expliquer en détail ce que fait `validator.sh`
+  - ce que vous avez changé, et ce que vous avez ajouté, et pourquoi.
 
 ### Détails, si nécessaire
 
@@ -137,3 +138,103 @@ Pour les points bonus :
 2. Utilisation de Docker Scout pour repérer les vulnérabilités de l'image (avec les traces de l'exécution, les corrections éventuelles et les explications): jusqu'à 3 points bonus.
 
 Ainsi, vous pourriez obtenir jusqu'à 25 points (cappés à 20) si vous réalisez toutes les tâches et respectez les délais.
+
+## List de vos repo> Install the buildx component to build images with BuildKit:
+https://docs.docker.com/go/buildx/
+
+Si vous avez installé docker autrement qu'avec Docker Desktop, il est possible que vous rencontriez ce message.
+En effet, docker buildx est installé par défaut avec Docker Desktop, mais pas avec les autres méthodes d'installation.
+Je vous invite à consulter [ce guide d'installation](https://docs.docker.com/engine/install/ubuntu/) pour plus d'informations.
+Il pourrait suffire d'installer le paquet `docker-buildx-plugin` pour résoudre le problème.
+
+### D'autres problèmes?
+
+Écrivez-moi (sous Discord ou par e-mail), nous tenterons de les résoudre ensemble, et je mettrai à jour cette section.
+
+## Déjà fini?
+
+Bravo! Et si on passait à l'étape suivante?
+Je vous propose de jeter un oeil à [Docker Scout](https://docs.docker.com/scout/) pour tenter de repérer les vulnérabilités de votre image.
+
+## Notation
+
+1. Analyse des travaux de vérifications implémentés dans `validator.sh` avec explication dans le corps de la PR : 5 points.
+2. Exécution de `validator.sh` sans erreur (et sans modification du fichier): 2 points.
+3. Correction des sources (`Dockerfile` et `start.sh`) : 8 points.
+4. Proposition d'une merge request sur le repository avec les modifications et les explications : 5 points.
+
+Pour les points bonus :  
+1. Respect des délais : jusqu'à 2 points bonus pour les travaux rendus avant la date du 26/06/2024.
+2. Utilisation de Docker Scout pour repérer les vulnérabilités de l'image (avec les traces de l'exécution, les corrections éventuelles et les explications): jusqu'à 3 points bonus.
+
+Ainsi, vous pourriez obtenir jusqu'à 25 points (cappés à 20) si vous réalisez toutes les tâches et respectez les délais.
+
+## List de vos repositories
+
+Entrez ici (par PR) vos prénom, nom, et le lien vers votre repository.
+
+1.> Install the buildx component to build images with BuildKit:
+https://docs.docker.com/go/buildx/
+
+Si vous avez installé docker autrement qu'avec Docker Desktop, il est possible que vous rencontriez ce message.
+En effet, docker buildx est installé par défaut avec Docker Desktop, mais pas avec les autres méthodes d'installation.
+Je vous invite à consulter [ce guide d'installation](https://docs.docker.com/engine/install/ubuntu/) pour plus d'informations.
+Il pourrait suffire d'installer le paquet `docker-buildx-plugin` pour résoudre le problème.
+
+### D'autres problèmes?
+
+Écrivez-moi (sous Discord ou par e-mail), nous tenterons de les résoudre ensemble, et je mettrai à jour cette section.
+
+## Déjà fini?
+
+Bravo! Et si on passait à l'étape suivante?
+Je vous propose de jeter un oeil à [Docker Scout](https://docs.docker.com/scout/) pour tenter de repérer les vulnérabilités de votre image.
+
+## Notation
+
+1. Analyse des travaux de vérifications implémentés dans `validator.sh` avec explication dans le corps de la PR : 5 points.
+2. Exécution de `validator.sh` sans erreur (et sans modification du fichier): 2 points.
+3. Correction des sources (`Dockerfile` et `start.sh`) : 8 points.
+4. Proposition d'une merge request sur le repository avec les modifications et les explications : 5 points.
+
+Pour les points bonus :  
+1. Respect des délais : jusqu'à 2 points bonus pour les travaux rendus avant la date du 26/06/2024.
+2. Utilisation de Docker Scout pour repérer les vulnérabilités de l'image (avec les traces de l'exécution, les corrections éventuelles et les explications): jusqu'à 3 points bonus.
+
+Ainsi, vous pourriez obtenir jusqu'à 25 points (cappés à 20) si vous réalisez toutes les tâches et respectez les délais.
+
+## List de vos repo> Install the buildx component to build images with BuildKit:
+https://docs.docker.com/go/buildx/
+
+Si vous avez installé docker autrement qu'avec Docker Desktop, il est possible que vous rencontriez ce message.
+En effet, docker buildx est installé par défaut avec Docker Desktop, mais pas avec les autres méthodes d'installation.
+Je vous invite à consulter [ce guide d'installation](https://docs.docker.com/engine/install/ubuntu/) pour plus d'informations.
+Il pourrait suffire d'installer le paquet `docker-buildx-plugin` pour résoudre le problème.
+
+### D'autres problèmes?
+
+Écrivez-moi (sous Discord ou par e-mail), nous tenterons de les résoudre ensemble, et je mettrai à jour cette section.
+
+## Déjà fini?
+
+Bravo! Et si on passait à l'étape suivante?
+Je vous propose de jeter un oeil à [Docker Scout](https://docs.docker.com/scout/) pour tenter de repérer les vulnérabilités de votre image.
+
+## Notation
+
+1. Analyse des travaux de vérifications implémentés dans `validator.sh` avec explication dans le corps de la PR : 5 points.
+2. Exécution de `validator.sh` sans erreur (et sans modification du fichier): 2 points.
+3. Correction des sources (`Dockerfile` et `start.sh`) : 8 points.
+4. Proposition d'une merge request sur le repository avec les modifications et les explications : 5 points.
+
+Pour les points bonus :  
+1. Respect des délais : jusqu'à 2 points bonus pour les travaux rendus avant la date du 26/06/2024.
+2. Utilisation de Docker Scout pour repérer les vulnérabilités de l'image (avec les traces de l'exécution, les corrections éventuelles et les explications): jusqu'à 3 points bonus.
+
+Ainsi, vous pourriez obtenir jusqu'à 25 points (cappés à 20) si vous réalisez toutes les tâches et respectez les délais.
+
+## List de vos repositories
+
+Entrez ici (par PR) votre prénom, votre nom, et le lien vers votre repository.
+
+1. [Henri Aulait](https://github.com/user/repo) https://github.com/user/repo
