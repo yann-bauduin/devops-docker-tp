@@ -10,10 +10,10 @@ set -euo pipefail
 IMG=$(echo img$$)
 # Creating a unique image name using the process ID of the current shell.
 
-docker image build --tag $IMG ./src --load
+docker image build --tag $IMG ./src # --load
 # Building a Docker image from the Dockerfile located in the ./src directory.
 # The built image is tagged with the unique name generated above.
-# The '--load' option ensures the built image is loaded into the Docker daemon.
+# The '--load' option ensures the built image is loaded into the Docker daemon only if you use docker buildx.
 
 USR=$(docker container run --rm --entrypoint=whoami $IMG )
 # Running a Docker container from the image built above.
