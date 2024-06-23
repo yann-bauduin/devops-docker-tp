@@ -95,6 +95,11 @@ Pour la seconde erreur, elle signifie qu'un processus (`start.sh` en occurrence)
 Il va donc falloir modifier le script `start.sh` pour qu'il ne tente pas de créer un fichier dans le répertoire `/home/www`.
 Vous pouvez aller consulter ce [court article](https://projectatomic.io/blog/2015/12/making-docker-images-write-only-in-production/) pour trouver l'inspiration. Les modifications à apporter au script `start.sh` sont très simples, et ne nécessitent pas de connaissances particulières en shell.
 
+‘unknown flag: --load‘: dans la première version du script ‘validator.sh‘, j'utilisais l'option `--load‘ dans la commande ‘docker build‘.
+Cette commande ne fonctionne que si vous utilisez docker buildx, et pas docker build. Si vous avez ‘docker buildx‘, ‘docker build‘ est un synonyme pour ‘docker buildx build‘.
+Si vous n'avez pas ‘docker buildx‘ d'installé, corrigez le script pour enlever l'option ‘--load‘, ou mettez à jour votre fork avec ‘git fetch --all‘ suivi de ‘git merge upstream/main‘.
+https://github.com/docker/buildx
+
 ## Erreurs courantes
 
 ### Error response from daemon: Cannot kill container: 35c77f95620e: permission denied
